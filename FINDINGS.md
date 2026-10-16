@@ -6,6 +6,21 @@ Any change to `config.py` must be logged here with the reason.
 
 ---
 
+## 2026-10-16 — Notebook 06: market moods (Part A, build years 1999-01-04 to 2020-12-31)
+
+Tests whether a simple "mood" label for the stock market (is SPY above or below its 200-day average, and is it more or less volatile than usual) is stable from month to month and says anything about the following month. Measures labels, not a trading strategy; no trading costs applied.
+
+### Part A predictions (written before running anything)
+- **D1.** The mood at a checkpoint matches the mood at the next checkpoint (21 trading days later) at least 60% of the time.
+- **D2.** The defensive basket (equal weight XLP, XLU, XLV) has a positive average next-month excess vs the sector average in the two stormy moods combined, and a negative one in the calm uptrend.
+- **D3.** SPY's average next-month return is lower at checkpoints in a downtrend (either calm or stormy) than at checkpoints in an uptrend.
+
+Each is confirmed if the stated condition is met and contradicted if not (D2 needs both parts).
+
+Rules and choices fixed before running: (a) trend = SPY adjusted close at or above its 200-trading-day simple average on the checkpoint = uptrend, otherwise downtrend; storminess = SPY's 21-day volatility (standard deviation of the last 21 daily returns) above the median of that same 21-day volatility over the previous 252 trading days = stormy, otherwise calm; mood = trend x storminess (four moods). (b) Checkpoints = the same 21-day grid as notebooks 02-05, starting at the first one with enough history (200 days for the trend; 21 + 252 for storminess). (c) Outcomes run from the NEXT day's close to 21 trading days after that (same one-day delay as 03 and 04); sector average = simple mean of the sector funds' changes over that span; defensive excess = mean of the XLP, XLU, XLV changes minus the sector average. (d) D1 is judged on all pairs of consecutive labeled checkpoints (no outcome needed); the chance level = sum of squared mood shares, reported as context. (e) D2 and D3 average over checkpoints (one observation per checkpoint), with the two stormy moods pooled for D2 and the two uptrend moods and the two downtrend moods pooled for D3; D3 only needs the downtrend average to be lower. (f) Rough 95% ranges resample checkpoint dates (2,000 draws, fixed seed). Checkpoints without a full next-month outcome inside the build years are dropped from the outcome results and counted. No method changes after seeing results.
+
+---
+
 ## 2026-10-16 — Notebook 05: who moves first (Part A, build years 1999-01-04 to 2020-12-31)
 
 Tests whether one market's return today helps predict another market's return next period (lead-lag): "A leads B" = correlation of A's return in period t with B's return in period t+1. Daily (23 symbols, BTC-USD excluded) and weekly (24 symbols).
