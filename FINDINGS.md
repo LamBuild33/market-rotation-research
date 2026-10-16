@@ -31,6 +31,12 @@ Each is confirmed if the stated threshold is met and contradicted if not.
 - **Files:** `results/03_summary.csv`, `03_period_returns.csv`, `03_by_year.csv`, `03_costs_by_year.csv`, `03_swaps_summary.csv`, `03_trades_top5.csv`, `03_trades_bottom5.csv`, `03_variants_excess.csv`, `03_growth_of_1.png`, `03_top5_relative_to_average.png`.
 - **Takeaway:** On 1999-2020 data, the dashboard's top-5 ranking did not beat the sector average. All three predictions were contradicted: after costs it trailed by about 2.5% a year, won only 8 of 22 years, and won fewer than half of the months. Relative to the average it kept sliding over the whole period (final growth about 59% of the average's). The bottom 5 did better than the top 5, which points toward last month's leaders tending to lag next month, but that is an observation from this run, not a tested idea. Part B (test years) not run yet.
 
+### Part B predictions (test years 2021-01-01 to last date; written before loading any 2021+ data)
+- **U1.** After 0.10% trading costs, the top-5 portfolio's annualized excess over the equal-weight sector average (average excess per holding period x 12) is below zero. [not seen]
+- **U2.** The top-5 portfolio beats the sector average in fewer than 50% of holding periods. [not seen]
+
+Rules: same method as Part A (same universe, 21-day checkpoint grid continuing from Part A, one-day delay, 0.10% cost rule, same sector average); the portfolio starts with no holdings at the first test checkpoint, so the first purchase is charged; only holding periods that finish inside the data count for period statistics (dropped ones are counted). No method changes after seeing results. Extra (not a prediction): top-5 excess before costs for both Part A and Part B, replacing the rough arithmetic in the Part A entry.
+
 ---
 
 ## 2026-10-15 — Notebook 02: volume check (Part A, build years 1999-01-04 to 2020-12-31)
