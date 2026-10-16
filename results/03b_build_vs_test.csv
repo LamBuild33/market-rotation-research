@@ -1,0 +1,3 @@
+,periods,first_trade,top5_minus_avg_after_costs_pct_per_yr,top5_minus_avg_before_costs_pct_per_yr,share_periods_top5_beat_avg_pct,top5_minus_bottom5_after_costs_pct_per_yr,share_periods_top5_beat_bottom5_pct,top5_yearly_return_pct,bottom5_yearly_return_pct,sector_avg_yearly_return_pct
+"Part A (build, 1999-2020)",262,1999-02-04,-2.5240599182360697,-1.3821395892316144,42.74809160305343,-2.81771208338868,46.94656488549619,5.619978465966691,8.064340185438844,8.170593643634817
+"Part B (test, 2021 on)",68,2021-01-15,-3.1281918686457724,-1.700026527872874,41.17647058823529,-3.1015041887902104,47.05882352941176,9.069977052196787,12.465928993362564,12.69188105541732
