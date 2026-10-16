@@ -41,6 +41,28 @@ Test years are 2021 through 2026; 2026 counts if it has at least 120 days.
 
 Rules: same methods as Part A, no changes after seeing test results; if something looks wrong, report it, don't fix it.
 
+### Part B results (run 2026-10-15, same notebook, test years checked once)
+- **Data range:** 2021-01-04 to 2026-10-15, 1,453 trading days. Years used: 2021 to 2026 (2026 has 198 days, above the 120 minimum). Methods identical to Part A; an automatic check confirmed the test code reproduces Part A's market-removed numbers exactly on build years. Before the real run, the Part B code was dry-run on 2015-2020 only (no 2021+ data loaded) to catch bugs. The test years were then run once, with no method changes. BTC-USD ends 2026-10-14 (one day behind), as in 00.
+- **B1, dollar vs gold (UUP-GLD), plain view: CONFIRMED.** Negative in 6 of 6 years: 2021 -0.51, 2022 -0.52, 2023 -0.56, 2024 -0.40, 2025 -0.42, 2026 -0.50. Build-year range was -0.19 to -0.65, so this is a very steady relationship. [already seen in quick look]
+- **B2, stocks vs long bonds (SPY-TLT), plain view: CONFIRMED.** Positive in 5 of 6 years (needed 4): 2021 -0.14, 2022 +0.08, 2023 +0.13, 2024 +0.06, 2025 +0.10, 2026 +0.34. This is a real break from the build years, where it was negative in 16 of 18 years. The positives are modest except 2026. [already seen in quick look]
+- **B3, tech group all 6 pairs above +0.70 every year, plain view: CONFIRMED.** 36 of 36 pair-years above 0.70. Lowest was SMH-SPY at 0.739 (2021); next lowest SMH-SPY 0.746 (2023) and 0.752 (2026). Every other pair stayed at or above 0.84. SMH-SPY is the pair that failed this test in the build years (0.60-0.70 in 2000, 2004, 2005, 2017), so it is now tighter than it used to be. [partly seen: quick look showed whole-period numbers only]
+- **B4, steady pairs stay steady, market-removed view: CONFIRMED.** 127 pairs qualified (labelled steady together or steady opposite in Part A, not sector-vs-sector); 111 of 127 (87%) kept the same sign over the test period (needed 80%). Steady-together pairs: 55 of 62 kept their sign; steady-opposite: 56 of 65. All 127 had enough test data. [not seen]
+  - 16 pairs flipped. 12 of the 16 flipped to a test correlation within 0.06 of zero (e.g. ITA-GLD +0.05, QQQ-TLT +0.00, XLE-UUP +0.05), so those are better read as "relationship faded to nothing" than "reversed". The other four are XLE-EEM (-0.08) and three SPY-vs-sector pairs: XLV-SPY (-0.18), KRE-SPY (-0.09), XLF-SPY (-0.07).
+- **Normal wobble, 63-day rolling correlation (median across 276 pairs):** test years **0.189** vs build years 0.204 (plain view); 0.168 vs 0.173 (market-removed). About the same, slightly calmer. A move of about 0.2 in a 3-month correlation is still routine.
+- **Sign held overall (build-year median vs test period, all 276 pairs):** 88% of pairs kept the same sign in the plain view, 81% in the market-removed view. The typical plain-view pair is about 0.09 less correlated in the test years than its build-year median (median change -0.086); market-removed change is about zero (-0.011).
+- **Biggest changes from build to test (market-removed view, sector-vs-sector excluded; build median yearly -> test period):**
+  - SMH-SPY +0.34 -> +0.75: chips and the S&P 500 (relative to the equal-weight sector average) moved together far more.
+  - XLP-SPY -0.04 -> -0.44: staples went from unrelated to clearly opposite the S&P 500's big-company tilt.
+  - XLF-SPY +0.31 -> -0.07 and KRE-SPY +0.26 -> -0.09: financials and regional banks stopped moving with the S&P 500 tilt.
+  - QQQ-EEM +0.10 -> +0.45: Nasdaq-100 and emerging markets became much more linked once the market is removed.
+  - XLV-SPY +0.17 -> -0.18: health care flipped from slightly together to slightly opposite.
+  - XLK-SPY +0.57 -> +0.91 and SPY-QQQ +0.59 -> +0.92: tech and Nasdaq-100 became almost the same trade as the S&P 500's tilt.
+  - SMH-EEM +0.20 -> +0.53 and XLY-SPY +0.19 -> +0.51: chips and emerging markets, and consumer discretionary and the S&P 500, moved much more together.
+  - Pattern: 7 of the 10 involve SPY. In the market-removed view SPY's leftover is "S&P 500 vs the equal-weight sector average" (a big-company tilt). In the test years that tilt moved with tech, chips and Nasdaq funds and against staples, health care and banks. That is consistent with a few very large tech-heavy companies driving the S&P 500, but this study did not test that explanation.
+- **Heads-up (reported, not fixed):** pairs involving SPY in the market-removed view are special because SPY is not a sector, so the equal-weight sector average does not contain it; the big changes above partly reflect how much SPY differs from that average in the test years, not only changes in the funds themselves. Part A's tables used the same definition, so the comparison is like for like.
+- **Files:** `results/01b_correlations_whole_test.csv`, `01b_correlations_by_year.csv`, `01b_rolling_wobble.csv`, `01b_selected_pairs_by_year.csv`, `01b_build_vs_test.csv`, `01b_top10_changes_market_removed.csv`, `01b_steady_pairs_check.csv`, `01b_heatmap_plain.png`, `01b_heatmap_market_removed.png`.
+- **Takeaway:** All four Part B predictions held. Dollar vs gold stayed opposite every year. Stocks and long bonds stopped being opposite (positive in 5 of 6 years after being negative in most build years). Tech funds stayed tightly together, even SMH-SPY. And most pairs that were reliably together or opposite in 1999-2020 kept their direction in 2021-2026, with the main exceptions being pairs that faded to near zero and a few SPY-vs-sector pairs. Only the stocks-vs-bonds relationship changed in a way that matters for practical use.
+
 ---
 
 ## 2026-10-15 — Notebook 00: data download and checks
