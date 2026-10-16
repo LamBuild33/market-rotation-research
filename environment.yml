@@ -1,0 +1,16 @@
+name: rotation
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pandas
+  - numpy
+  - scipy
+  - matplotlib
+  - pyarrow
+  - jupyter
+  - ipykernel
+  - pip
+  - pip:
+      - yfinance
+      - -e .
