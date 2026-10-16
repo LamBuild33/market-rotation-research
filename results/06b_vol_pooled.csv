@@ -1,0 +1,12 @@
+group,count,avg_vol_ann_pct,range95_low_pct,range95_high_pct
+uptrend (both),55.0,12.76,11.766,13.839
+downtrend (both),13.0,25.03,20.223,31.161
+stormy (both),27.0,17.931,14.293,22.171
+calm (both),41.0,13.246,12.142,14.491
+calm uptrend,40.0,13.143,12.039,14.391
+stormy uptrend,15.0,11.741,9.971,13.823
+calm downtrend,1.0,17.364,17.364,17.364
+stormy downtrend,12.0,25.669,20.568,32.216
+All,68.0,15.106,13.46,17.018
+downtrend minus uptrend (E1),,12.27,7.353,18.331
+stormy minus calm (E2),,4.686,0.897,9.147

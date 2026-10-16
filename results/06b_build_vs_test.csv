@@ -1,0 +1,35 @@
+metric,build_1999_2020,test_2021_on
+checkpoints labeled,251.0,69.0
+checkpoints with a next-month outcome,250.0,68.0
+share of checkpoints: calm uptrend (%),44.6,59.4
+share of checkpoints: stormy uptrend (%),28.7,21.7
+share of checkpoints: calm downtrend (%),6.4,1.4
+share of checkpoints: stormy downtrend (%),20.3,17.4
+D1 mood stays the same (%),55.2,52.94
+D1/E3 chance level (%),32.67,43.08
+E3 stayed minus chance (points),22.53,9.86
+trend alone stays the same (%),88.0,88.24
+storminess alone stays the same (%),62.8,58.82
+"D2 defensive excess, stormy moods pooled (%)",-0.136,-0.118
+"D2 defensive excess, calm uptrend (%)",-0.025,-0.413
+defensive excess: calm uptrend (%),-0.025,-0.413
+defensive excess: stormy uptrend (%),0.253,-0.493
+defensive excess: calm downtrend (%),0.908,-4.162
+defensive excess: stormy downtrend (%),-0.684,0.351
+"D3/E4 SPY next month, downtrend pooled (%)",0.344,0.852
+"D3/E4 SPY next month, uptrend pooled (%)",0.791,1.352
+D3/E4 downtrend minus uptrend (points),-0.447,-0.5
+SPY next month: calm uptrend (%),0.845,1.227
+SPY next month: stormy uptrend (%),0.707,1.684
+SPY next month: calm downtrend (%),-1.596,0.939
+SPY next month: stormy downtrend (%),0.952,0.844
+"E1 next-month SPY volatility, downtrend pooled (ann. %)",25.912,25.03
+"E1 next-month SPY volatility, uptrend pooled (ann. %)",13.096,12.76
+E1 downtrend minus uptrend (points),12.816,12.27
+"E2 next-month SPY volatility, stormy pooled (ann. %)",19.651,17.931
+"E2 next-month SPY volatility, calm pooled (ann. %)",13.509,13.246
+E2 stormy minus calm (points),6.141,4.686
+next-month SPY volatility: calm uptrend (ann. %),12.246,13.143
+next-month SPY volatility: stormy uptrend (ann. %),14.406,11.741
+next-month SPY volatility: calm downtrend (ann. %),22.272,17.364
+next-month SPY volatility: stormy downtrend (ann. %),27.055,25.669

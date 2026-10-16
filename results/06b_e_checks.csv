@@ -1,0 +1,5 @@
+prediction,measure,value,range95_low,range95_high,n_a,n_b,condition,verdict
+E1,"downtrend minus uptrend, next-month SPY volatility (ann. points)",12.27,7.353,18.331,13.0,55.0,> 0,CONFIRMED
+E2,"stormy minus calm, next-month SPY volatility (ann. points)",4.686,0.897,9.147,27.0,41.0,> 0,CONFIRMED
+E3,mood stayed same share minus chance (points),9.86,,,68.0,,>= 10,CONTRADICTED
+E4,"downtrend minus uptrend, SPY next-month return (points)",-0.5,-4.428,3.331,13.0,55.0,between -2 and +2,CONFIRMED
