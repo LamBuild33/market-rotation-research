@@ -12,9 +12,11 @@
 - Config unchanged since setup.
 - The quick-look study (chat, Oct 2022 to Oct 2026) already showed part of the test years, so predictions touching those years are not blind; mark any that come from it as "already seen."
 
+- The dashboard's top-5 wording was updated on 2026-10-16 (logged in FINDINGS.md under 03).
+
 ## Scheduled checks
 - 02 vs-sector lead: run F1 no earlier than 2027-10-15. (Prediction and method are in FINDINGS.md under "Future test (fresh data only)". Needs at least 50 "Doesn't confirm" observations, otherwise wait longer. Refresh `data/prices.parquet` first by rerunning notebook 00.)
 
 ## Next
-next: update the dashboard's top-5 wording in chat, then 04 Rotation map zones.
+next: 04 Rotation map zones.
 (For 04: write predictions in FINDINGS.md and commit before running; choose settings on build years only; test years are checked once per notebook.)
