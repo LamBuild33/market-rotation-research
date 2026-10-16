@@ -1,0 +1,6 @@
+zone,count,avg_excess_pct,median_pct,share_beat_avg_pct,range95_low_pct,range95_high_pct
+Improving,124,0.216,-0.511,44.355,-0.448,0.892
+Leading,248,-0.319,-0.502,45.161,-0.84,0.167
+Fading,104,-0.258,-0.536,46.154,-0.97,0.432
+Lagging,272,0.29,0.158,52.941,-0.077,0.682
+All labeled,748,-0.0,-0.13,47.995,,

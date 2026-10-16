@@ -1,0 +1,25 @@
+year,zone,n,avg_excess_pct,note
+2021,Fading,20,0.782,
+2021,Improving,23,0.021,
+2021,Lagging,50,1.1,
+2021,Leading,39,-1.824,
+2022,Fading,16,0.533,
+2022,Improving,21,0.815,
+2022,Lagging,46,-0.703,
+2022,Leading,49,0.136,
+2023,Fading,14,0.566,
+2023,Improving,24,-0.623,
+2023,Lagging,52,0.245,
+2023,Leading,42,-0.136,
+2024,Fading,21,-0.894,
+2024,Improving,15,1.067,
+2024,Lagging,45,0.161,
+2024,Leading,51,-0.088,
+2025,Fading,21,-1.201,
+2025,Improving,25,-0.065,
+2025,Lagging,47,1.016,
+2025,Leading,39,-0.536,
+2026,Fading,12,-1.242,partial: checkpoints to 2026-08-24
+2026,Improving,16,0.614,partial: checkpoints to 2026-08-24
+2026,Lagging,32,-0.357,partial: checkpoints to 2026-08-24
+2026,Leading,28,0.59,partial: checkpoints to 2026-08-24

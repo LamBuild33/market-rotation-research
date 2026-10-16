@@ -1,0 +1,11 @@
+view,zone,count,avg_excess_pct,median_pct,share_beat_avg_pct,range95_low_pct,range95_high_pct
+"1-month map, sectors",Improving,123,0.012,0.236,54.472,-0.626,0.666
+"1-month map, sectors",Leading,239,0.091,-0.323,46.025,-0.415,0.593
+"1-month map, sectors",Fading,133,-0.555,-0.892,42.857,-1.295,0.212
+"1-month map, sectors",Lagging,253,0.201,-0.031,49.407,-0.287,0.687
+"1-month map, sectors",All labeled,748,-0.0,-0.13,47.995,,
+"1-month map, industries",Improving,48,-0.101,-0.287,47.917,-1.97,2.011
+"1-month map, industries",Leading,91,0.775,0.697,53.846,-0.417,1.788
+"1-month map, industries",Fading,50,0.032,0.297,52.0,-2.192,2.115
+"1-month map, industries",Lagging,83,0.312,-0.218,49.398,-1.035,1.765
+"1-month map, industries",All labeled,272,0.342,0.153,51.103,,

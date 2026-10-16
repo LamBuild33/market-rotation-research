@@ -1,0 +1,15 @@
+item,build_n,build_avg_pct,build_median_pct,build_range95,test_n,test_avg_pct,test_median_pct,test_range95
+"3-month map, sectors: Improving",372.0,0.044,0.008,-0.30 to +0.41,124.0,0.216,-0.511,-0.45 to +0.89
+"3-month map, sectors: Leading",833.0,-0.193,-0.058,-0.41 to +0.02,248.0,-0.319,-0.502,-0.84 to +0.17
+"3-month map, sectors: Fading",378.0,0.108,-0.219,-0.29 to +0.47,104.0,-0.258,-0.536,-0.97 to +0.43
+"3-month map, sectors: Lagging",842.0,0.128,0.102,-0.13 to +0.38,272.0,0.29,0.158,-0.08 to +0.68
+"3-month map, sectors: All labeled",2425.0,0.002,-0.016,,748.0,-0.0,-0.13,
+"clockwise share of one-step moves, real (all sector funds labeled)",,70.186,,,,68.665,,
+"clockwise share, real on funds in the shuffle comparison",,70.973,,,,68.665,,
+"clockwise share, shuffled-days baseline (average)",,70.91,,,,70.665,,
+real minus shuffled baseline (points),,0.064,,,,-2.0,,
+industries 3-month: Fading average,,1.145,,,,0.214,,
+industries 3-month: overall average,,0.268,,,,0.342,,
+industries 3-month: Fading minus overall,,0.877,,,,-0.129,,
+"industries 3-month: Fading minus overall, rough 95% range",,,,-0.09 to +1.83,,,,-1.63 to +1.48
+industries 3-month: Fading n,122.0,,,,46.0,,,
