@@ -32,6 +32,13 @@ Each is confirmed if the stated condition is met and contradicted if not.
 - **Files:** `results/05_daily_lag1_plain.csv`, `05_weekly_lag1_plain.csv`, `05_top15_daily_plain.csv`, `05_top15_weekly_plain.csv`, `05_daily_lag1_by_year_plain.csv`, `05_weekly_lag1_by_year_plain.csv`, `05_steady_leads_daily_plain.csv`, `05_steady_leads_weekly_plain.csv`, `05_self_pairs_autocorrelation.csv`, `05_by_year_summary.csv`, `05_follower_profile_daily.csv`, `05_summary_shares.csv`, the `*_market_removed.csv` equivalents, and `05_heatmap_daily_lag1.png`.
 - **Takeaway:** On 1999-2020 data there is no sign that one market reliably moves before another once you look beyond the market itself. The three predictions failed because most pairs (82% daily, 28% weekly) show small negative lag-1 correlations, which come from a market-wide next-day reversal in the stock funds, strongest in 2007-2008 and 2020. Once the market is removed the weekly result is near noise (10.7%) and the daily one is small (largest 0.114). The steady leads are candidates for Part B, with the caveat that most are that same reversal.
 
+### Part B predictions (test years 2021-01-01 to last date; written before loading any 2021+ data)
+- **N1.** SPY's daily lag-1 autocorrelation over the whole test period is negative. [not seen]
+- **N2.** Of the 23 market-removed daily steady leads from Part A, at least 60% have the same sign over the whole test period as in the build years. [not seen]
+- **N3.** Of the 11 market-removed weekly steady leads from Part A, at least 60% have the same sign over the whole test period as in the build years. [not seen]
+
+Rules: same method as Part A (same returns, BTC-USD excluded from daily and included in weekly, same market-removed fit per calendar year using test years only, same noise bands). Choices fixed before running: (a) test returns are those dated 2021-01-01 or later (first daily return 2021-01-04; weekly returns for weeks ending 2021-01-08 on), and lag pairs use test-year periods only, so no pair spans 2020 and 2021; 2026 is partial (to 2026-10-15); (b) N1 uses plain-view returns (SPY leads SPY, daily); (c) for N2 and N3 "same sign" compares the sign of each pair's whole-test-period market-removed lag-1 correlation with the sign of its Part A full-period value, "at least 60%" means at least 14 of 23 and at least 7 of 11, and a pair with no test value counts as not kept; (d) a chance benchmark (coin-flip probabilities of reaching those counts) is reported as context. No method changes after seeing results.
+
 ---
 
 ## 2026-10-16 — Notebook 04: rotation map zones (Part A, build years 1999-01-04 to 2020-12-31)
