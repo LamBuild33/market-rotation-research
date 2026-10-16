@@ -32,6 +32,15 @@ Each is confirmed if the stated threshold is met and contradicted if not.
 - **Files:** `results/01_correlations_whole_period.csv`, `01_correlations_by_year.csv`, `01_steadiness.csv`, `01_rolling_wobble.csv`, `01_heatmap_plain.png`, `01_heatmap_market_removed.png`, `01_top10_market_removed.csv`, `01_selected_pairs_by_year.csv`.
 - **Takeaway:** Two of the four ideas held (dollar vs gold, stocks vs long bonds were reliably opposite) and two narrowly failed (SMH was not always tightly tied to SPY; tech vs staples was opposite 77%, not 80%, of years once the market is removed). Part B (test years) not run yet.
 
+### Part B predictions (test years 2021-01-01 to last date; written before loading any 2021+ data)
+Test years are 2021 through 2026; 2026 counts if it has at least 120 days.
+- **B1.** Dollar vs gold (UUP vs GLD), plain view: negative in all 6 test years. [already seen in quick look]
+- **B2.** Stocks vs long bonds (SPY vs TLT), plain view: positive in at least 4 of 6 test years (a break from the build years). [already seen in quick look]
+- **B3.** Tech group (XLK, SMH, QQQ, SPY), plain view: all 6 pairs above +0.70 in every test year (36 pair-years). [partly seen: quick look showed whole-period numbers only]
+- **B4.** Steady pairs stay steady, market-removed view: of the pairs labeled "steady together" or "steady opposite" in Part A, excluding pairs where both funds are among the 11 sector funds, at least 80% have the same sign over the whole test period. [not seen]
+
+Rules: same methods as Part A, no changes after seeing test results; if something looks wrong, report it, don't fix it.
+
 ---
 
 ## 2026-10-15 — Notebook 00: data download and checks
