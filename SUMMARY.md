@@ -30,7 +30,8 @@ hold up on real history.
   continued. Removed from the dashboard.
 - **Top-5 sectors:** holding last month's top 5 sectors trailed holding all sectors
   equally by about 2.5% a year (1999-2020) and 3.1% a year (2021-2026) after costs.
-  Before costs it was about a coin flip.
+  Before costs it still trailed, by about 1.4% and 1.7% a year, and won about 48.5%
+  of periods.
 - **Rotation map zones:** no zone (Leading, Fading, Improving, Lagging) predicted the
   next month. The clockwise drift through the zones comes from how the map is
   drawn: it appeared just as strongly with the days shuffled at random.
@@ -38,7 +39,8 @@ hold up on real history.
   "bounce back the next day" came mostly from panic years (2007-2008 and 2020) and
   faded.
 - **Rotation thermometer:** how spread out the sectors were weakly predicted next
-  month's spread in 1999-2020, but that faded to near zero in 2021-2026.
+  month's spread in 1999-2020, but in 2021-2026 the link weakened from 0.46 to 0.18,
+  too small to tell apart from zero.
 
 ## What changed over time
 - **Stocks and bonds:** moved opposite in 16 of 18 build years, but together in 5
