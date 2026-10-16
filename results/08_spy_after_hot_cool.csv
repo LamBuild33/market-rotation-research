@@ -1,0 +1,10 @@
+measure,group,count,avg,median,share_positive_pct,range95_low,range95_high
+next-month SPY volatility (annualized %),hot,127,18.754,15.389,100.0,16.662,21.324
+next-month SPY volatility (annualized %),cool,123,14.236,12.419,100.0,12.972,15.676
+next-month SPY volatility (annualized %),all,250,16.531,13.645,100.0,15.3,18.05
+next-month SPY return (%),hot,127,0.867,1.443,62.205,-0.06,1.798
+next-month SPY return (%),cool,123,0.469,1.275,69.919,-0.409,1.251
+next-month SPY return (%),all,250,0.671,1.384,66.0,0.049,1.284
+next-month sector spread (percentage points),hot,127,3.653,3.057,100.0,3.318,4.022
+next-month sector spread (percentage points),cool,123,2.839,2.552,100.0,2.623,3.076
+next-month sector spread (percentage points),all,250,3.252,2.797,100.0,3.036,3.481

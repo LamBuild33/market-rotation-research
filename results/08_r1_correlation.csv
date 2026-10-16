@@ -1,0 +1,3 @@
+measure,value,range95_low,range95_high,checkpoints
+Pearson correlation: thermometer at checkpoint vs next-month sector spread,0.456,0.337,0.578,250
+Spearman rank correlation (information only),0.429,,,250

@@ -1,0 +1,2 @@
+scope,hot_avg,cool_avg,diff,range95_low,range95_high,hot_n,cool_n
+hot minus cool,-0.158,0.008,-0.167,-0.514,0.185,127,123

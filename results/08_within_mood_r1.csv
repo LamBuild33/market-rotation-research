@@ -1,0 +1,7 @@
+scope,checkpoints,corr_thermometer_vs_next_spread,range95_low,range95_high
+calm uptrend,111,0.336,,
+stormy uptrend,72,0.464,,
+calm downtrend,16,0.401,,
+stormy downtrend,51,0.248,,
+all moods,250,0.456,,
+partial: controlling for SPY's 21-day volatility at the checkpoint,250,0.319,0.168,0.452

@@ -1,0 +1,9 @@
+mood,measure,hot_count,cool_count,hot_avg,cool_avg,hot_minus_cool,range95_low,range95_high,hot_median,cool_median
+calm uptrend,next-month SPY volatility (annualized %),41,70,12.331,12.197,0.134,-1.915,2.161,11.314,10.853
+calm uptrend,next-month SPY return (%),41,70,0.691,0.935,-0.244,-1.595,1.097,0.984,1.077
+stormy uptrend,next-month SPY volatility (annualized %),41,31,15.302,13.221,2.081,-1.983,6.63,11.245,12.121
+stormy uptrend,next-month SPY return (%),41,31,0.598,0.851,-0.254,-2.417,1.7,1.818,1.914
+calm downtrend,next-month SPY volatility (annualized %),9,7,24.241,19.74,4.5,-1.233,10.017,22.985,20.332
+calm downtrend,next-month SPY return (%),9,7,-3.312,0.61,-3.923,-9.753,1.757,-4.292,0.214
+stormy downtrend,next-month SPY volatility (annualized %),36,15,28.628,23.279,5.349,-2.451,12.886,24.285,20.302
+stormy downtrend,next-month SPY return (%),36,15,2.417,-2.564,4.981,0.342,10.677,1.69,0.604
