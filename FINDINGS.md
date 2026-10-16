@@ -37,6 +37,13 @@ Each is confirmed if the stated condition is met and contradicted if not.
 - **Files:** `results/04_zones_3m_sectors.csv`, `04_zones_by_year.csv`, `04_zone_moves_summary.csv`, `04_zone_moves_table.csv`, `04_zone_move_shuffle_check.csv`, `04_information_only.csv`, `04_info_1m_sectors.csv`, `04_observations.csv`, `04_avg_excess_by_zone.png`.
 - **Takeaway:** On 1999-2020 data the rotation map zones did not separate strong from weak next months for sectors. No zone's average next-month excess was reliably different from zero, the largest was +0.13% a month (below the 0.2% cost threshold), Z1 and Z3 were confirmed only in a formal sense (Z1's gap is tiny, Z3 is produced by the zone rules themselves), and Z2 was contradicted. Part B (test years) not run yet.
 
+### Part B predictions (test years 2021-01-01 to last date; written before loading any 2021+ data)
+- **Y1.** 3-month map, sectors: every zone's average next-month excess vs the sector average is between -0.5% and +0.5%. [not seen]
+- **Y2.** Clockwise share of one-step zone moves is within 3 percentage points of the shuffled-days baseline computed on the test years. [not seen]
+- **Y3.** 3-month map, the 4 industries: the Fading zone's average next-month excess minus the industries' overall average next-month excess is above zero. [lead found in Part A; few observations]
+
+Rules: same method as Part A (same rules, 21-day grid continuing from Part A, one-day delay, 63-day history minimum); checkpoints whose outcome runs past the end of the data are dropped and counted. Choices fixed before running: (a) Y1 applies to each of the four zones; (b) for Y2 the real clockwise share is the share of one-step moves among sectors labeled at consecutive test checkpoints, and the baseline is the average over 200 shuffles (fixed seed) in which only the test-year trading days of the 11 sector funds are put in random order (earlier days stay real, so the first look-backs are unchanged), recounted with the same rules and grid; the check is |real share - baseline| <= 3 points; (c) for Y3 "overall" is the average over all labeled industry observations (all zones pooled) with an outcome. No method changes after seeing results.
+
 ---
 
 ## 2026-10-16 — Notebook 03: Top-5 test (Part A, build years 1999-01-04 to 2020-12-31)
