@@ -1,0 +1,3 @@
+view,build_confirms_pct,build_doesnt_pct,build_gap,build_baseline_pct,build_n_confirms,build_n_doesnt,build_n_all,test_confirms_pct,test_doesnt_pct,test_gap,test_baseline_pct,test_n_confirms,test_n_doesnt,test_n_all
+price,50.98,52.09,-1.11,51.43,2915,478,4939,47.67,51.14,-3.47,48.53,965,88,1564
+vs sector,49.46,47.48,1.98,49.22,2879,476,4939,50.77,37.01,13.76,49.1,914,127,1564

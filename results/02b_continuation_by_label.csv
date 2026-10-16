@@ -1,0 +1,9 @@
+label,view,n,continued,rate,rate_pct
+Confirms,price,965.0,460.0,0.47668393782383417,47.67
+Doesn't confirm,price,88.0,45.0,0.5113636363636364,51.14
+Neutral,price,511.0,254.0,0.49706457925636005,49.71
+All checkpoints (baseline),price,1564.0,759.0,0.4852941176470588,48.53
+Confirms,vs sector,914.0,464.0,0.5076586433260394,50.77
+Doesn't confirm,vs sector,127.0,47.0,0.3700787401574803,37.01
+Neutral,vs sector,523.0,257.0,0.491395793499044,49.14
+All checkpoints (baseline),vs sector,1564.0,768.0,0.49104859335038364,49.1

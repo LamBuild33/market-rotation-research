@@ -1,0 +1,9 @@
+view,group,n_all,rate_all,n_confirms,rate_confirms,n_doesnt,rate_doesnt,confirms_minus_doesnt
+price,benchmark (SPY),68,58.8,41,56.1,6,66.7,-10.6
+price,industry,272,48.9,166,48.8,17,58.8,-10.0
+price,other markets,476,45.6,293,46.8,28,53.6,-6.8
+price,sector,748,49.3,465,47.1,37,43.2,3.9
+vs sector,benchmark (SPY),68,54.4,44,63.6,6,0.0,63.6
+vs sector,industry,272,52.2,155,49.0,24,45.8,3.2
+vs sector,other markets,476,50.8,275,51.6,33,48.5,3.2
+vs sector,sector,748,46.4,440,49.5,64,31.2,18.3
