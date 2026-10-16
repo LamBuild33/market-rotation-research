@@ -6,6 +6,21 @@ Any change to `config.py` must be logged here with the reason.
 
 ---
 
+## 2026-10-16 — Notebook 07: big-day reactions (Part A, build years 1999-01-04 to 2020-12-31)
+
+Tests what tends to happen after SPY has an unusually large one-day move ("big day"): do big days bunch together, does SPY bounce after big down days, and do the sector funds fall in a similar order on big down days? Describes reactions; not a trading strategy; no trading costs applied.
+
+### Part A predictions (written before running anything)
+- **B1.** After a big day, the chance of at least one more big day within the next 5 trading days is at least double the chance of at least one big day in any 5-trading-day stretch.
+- **B2.** SPY's average return over the 5 trading days after a big down day is higher than SPY's average return over all 5-trading-day stretches.
+- **B3.** On big down days, the order of the sector funds by their same-day return minus SPY's return is similar in 1999-2009 and 2010-2020: Spearman rank correlation of at least 0.5, using the 9 sector funds that exist in both halves.
+
+Each is confirmed if the stated condition is met and contradicted if not.
+
+Rules and choices fixed before running: (a) big day = SPY's daily return (percent change of adjusted close) is larger in size than 2 x the standard deviation (sample, n-1) of SPY's daily returns over the previous 63 trading days, not including that day; big up = positive, big down = negative; counted from the first day with 63 days of history (the date is reported). (b) B1: for each big day, "another big day within the next 5 trading days" means at least one big day among the next 5 trading days; the baseline is the same indicator over all eligible days (every day with 63 days of history), i.e. the share of 5-day stretches that follow an eligible day and contain a big day; big days whose next 5 days run past 2020-12-31 are dropped and counted; the condition is ratio >= 2.0; down-only and up-only ratios are reported as information. (c) B2: each big down day is one observation; the 5-day return runs from the big day's close to the close 5 trading days later; the baseline is the average of the same 5-day return starting from every eligible day; the condition is only that the big-down average is above the baseline average (any size); big down days without 5 full days are dropped and counted. The 1-day and 21-day reactions, big up days and the versions starting at the next day's close are information only. (d) B3: halves by date (1999-01-04 to 2009-12-31 and 2010-01-01 to 2020-12-31); for each of XLK, XLE, XLV, XLU, XLF, XLI, XLB, XLP, XLY the average over that half's big down days of (the fund's same-day return minus SPY's); Spearman rank correlation between the two halves' averages, needs >= 0.5. (e) Rough 95% ranges resample calendar months with replacement (2,000 draws, fixed seed), keeping each month's big days together. (f) BTC-USD is excluded; sector sensitivity uses the 22 other funds (SPY against itself is zero). No method changes after seeing results.
+
+---
+
 ## 2026-10-16 — Notebook 06: market moods (Part A, build years 1999-01-04 to 2020-12-31)
 
 Tests whether a simple "mood" label for the stock market (is SPY above or below its 200-day average, and is it more or less volatile than usual) is stable from month to month and says anything about the following month. Measures labels, not a trading strategy; no trading costs applied.
