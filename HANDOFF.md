@@ -24,5 +24,4 @@
 - Leaders vs laggards: recent leaders did slightly worse and laggards slightly better in 03, 04 Part A and 04 Part B. Never predicted; needs its own predicted test on fresh data.
 
 ## Next
-next: decide in chat whether a thermometer belongs on the dashboard, then write a project wrap-up.
-(Notebooks 00-08 are all done, Parts A and B; test years used once for each. The market-mood tile (06) and the big-day line on the Market mood card (07) were added to the dashboard on 2026-10-16, logged in FINDINGS.md. If a thermometer is added to the dashboard, log the change in FINDINGS.md under 08; wording should describe how unevenly the sectors are moving now and, at most, a modest and fading link to next month's sector spread, not a signal about SPY or the market mood. For the wrap-up: draw on the "Overall verdict" lines in FINDINGS.md for 02-08, and note the scheduled 02 vs-sector check and the leaders-vs-laggards possible test below.)
+Project complete (notebooks 00-08 done, test years used once each). Only the scheduled checks remain. See SUMMARY.md.
