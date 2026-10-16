@@ -1,0 +1,11 @@
+version,group,horizon_days,count,dropped,avg_pct,median_pct,share_positive_pct,range95_low_pct,range95_high_pct,baseline_avg_pct,baseline_median_pct,baseline_share_positive_pct,baseline_range95_low_pct,baseline_range95_high_pct,avg_minus_baseline_pts,diff_range95_low,diff_range95_high
+from the big day's close (main),big down,1,55,0,-0.041,-0.016,49.091,-0.313,0.261,0.062,0.07,54.201,0.016,0.105,-0.103,-0.375,0.197
+from the big day's close (main),big up,1,29,0,-0.041,0.229,58.621,-0.547,0.382,0.062,0.07,54.201,0.016,0.105,-0.103,-0.606,0.319
+from the big day's close (main),big down,5,55,0,0.35,0.564,60.0,-0.402,1.069,0.302,0.415,59.807,0.076,0.502,0.048,-0.643,0.697
+from the big day's close (main),big up,5,29,0,-0.154,0.114,51.724,-1.304,0.864,0.302,0.415,59.807,0.076,0.502,-0.456,-1.578,0.543
+from the big day's close (main),big down,21,55,0,1.551,2.984,65.455,-0.276,3.38,1.25,1.651,67.737,0.485,1.993,0.301,-1.175,1.758
+from the big day's close (main),big up,21,28,1,2.069,2.361,75.0,0.56,3.364,1.25,1.651,67.737,0.485,1.993,0.818,-0.452,2.001
+from the NEXT day's close (information only),big down,5,55,0,0.585,0.86,65.455,-0.256,1.333,0.3,0.41,59.779,0.067,0.503,0.285,-0.481,0.923
+from the NEXT day's close (information only),big up,5,29,0,0.284,0.349,58.621,-0.682,1.094,0.3,0.41,59.779,0.067,0.503,-0.017,-0.929,0.788
+from the NEXT day's close (information only),big down,21,55,0,1.852,1.992,67.273,0.032,3.73,1.249,1.648,67.715,0.488,1.999,0.604,-0.905,2.101
+from the NEXT day's close (information only),big up,21,28,1,2.399,2.767,75.0,0.841,3.878,1.249,1.648,67.715,0.488,1.999,1.15,-0.187,2.407

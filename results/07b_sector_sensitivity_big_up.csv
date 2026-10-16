@@ -1,0 +1,23 @@
+fund,group,avg_pct_full,n_full,median_pct_full,share_below_SPY_full_pct
+XLK,sector,1.032,29,0.901,6.897
+XLE,sector,-1.076,29,-0.458,65.517
+XLV,sector,-1.141,29,-0.798,96.552
+XLU,sector,-1.365,29,-1.004,96.552
+XLF,sector,-0.186,29,-0.098,58.621
+XLI,sector,-0.209,29,-0.034,58.621
+XLB,sector,-0.289,29,0.015,48.276
+XLP,sector,-1.71,29,-1.536,96.552
+XLY,sector,0.188,29,0.264,41.379
+XLC,sector,-0.085,29,-0.231,68.966
+XLRE,sector,-0.809,29,-0.821,75.862
+SMH,industry,2.04,29,1.368,10.345
+XBI,industry,0.246,29,-0.01,51.724
+KRE,industry,0.484,29,-0.12,55.172
+ITA,industry,-0.354,29,-0.515,68.966
+QQQ,other market,0.596,29,0.584,10.345
+IWM,other market,0.409,29,0.251,34.483
+GLD,other market,-1.671,29,-1.666,82.759
+TLT,other market,-2.214,29,-1.85,93.103
+USO,other market,-2.268,29,-1.302,75.862
+UUP,other market,-2.768,29,-2.172,100.0
+EEM,other market,-0.323,29,-0.162,55.172

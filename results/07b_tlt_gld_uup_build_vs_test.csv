@@ -1,0 +1,7 @@
+fund,day_type,big_days_with_data_build,big_days_with_data_test,same_day_avg_pct_build,same_day_avg_pct_test,same_day_share_positive_pct_build,same_day_share_positive_pct_test,next5_avg_pct_build,next5_avg_pct_test,baseline_5day_avg_pct_build,baseline_5day_avg_pct_test,avg_minus_baseline_pts_build,avg_minus_baseline_pts_test
+TLT,big down days,157,55,0.848,-0.019,78.344,50.909,-0.067,-0.52,0.155,-0.146,-0.223,-0.374
+TLT,big up days,123,29,-0.729,0.261,24.39,58.621,0.15,-0.401,0.155,-0.146,-0.006,-0.255
+GLD,big down days,146,55,0.311,-0.482,64.384,21.818,-0.307,0.328,0.202,0.292,-0.509,0.037
+GLD,big up days,115,29,-0.018,0.804,51.304,79.31,0.243,0.438,0.202,0.292,0.041,0.146
+UUP,big down days,127,55,0.035,0.086,53.543,63.636,0.373,-0.047,0.009,0.119,0.365,-0.166
+UUP,big up days,99,29,-0.02,-0.293,42.424,37.931,0.05,-0.082,0.009,0.119,0.042,-0.201
