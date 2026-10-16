@@ -6,6 +6,19 @@ Any change to `config.py` must be logged here with the reason.
 
 ---
 
+## 2026-10-16 — Notebook 04: rotation map zones (Part A, build years 1999-01-04 to 2020-12-31)
+
+Tests the dashboard's rotation map zones (Leading / Fading / Improving / Lagging, from a longer and a shorter excess return vs the sector average). Measures labels, not a trading strategy; no trading costs applied.
+
+### Part A predictions (written before running anything)
+- **Z1.** On the 3-month map, "Improving" sectors have a positive average next-month excess return vs the sector average, and a higher one than "Leading" sectors.
+- **Z2.** On the 3-month map, "Fading" sectors have a negative average next-month excess return vs the sector average.
+- **Z3.** When a sector changes zone between consecutive checkpoints, clockwise moves (Improving->Leading->Fading->Lagging->Improving) outnumber counter-clockwise moves.
+
+Each is confirmed if the stated condition is met and contradicted if not.
+
+---
+
 ## 2026-10-16 — Notebook 03: Top-5 test (Part A, build years 1999-01-04 to 2020-12-31)
 
 Tests the dashboard's ranking idea: each month, hold the five sector funds with the highest past-month change. Compared with the equal-weight sector average, after 0.10% trading costs.
