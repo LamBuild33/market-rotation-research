@@ -22,5 +22,5 @@
 - Leaders vs laggards: recent leaders did slightly worse and laggards slightly better in 03, 04 Part A and 04 Part B. Never predicted; needs its own predicted test on fresh data.
 
 ## Next
-next: decide in chat whether a market-mood tile belongs on the dashboard, then 07 Big-day reactions.
-(For 07: write predictions in FINDINGS.md and commit before running; choose settings on build years only; test years are checked once per notebook. The quick-look study already showed part of the test years, so mark any prediction touching Oct 2022 to Oct 2026 as "already seen" where it applies. If a mood tile is added, wording should describe recent calm or stress and expected bumpiness only, not direction; log the dashboard change in FINDINGS.md under 06.)
+next: 07 Big-day reactions.
+(For 07: write predictions in FINDINGS.md and commit before running; choose settings on build years only; test years are checked once per notebook. The quick-look study already showed part of the test years, so mark any prediction touching Oct 2022 to Oct 2026 as "already seen" where it applies. The market-mood tile was added to the dashboard on 2026-10-16, logged in FINDINGS.md under 06.)
