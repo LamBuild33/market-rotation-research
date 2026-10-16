@@ -1,0 +1,29 @@
+freq,view,symbol,period,n,lag1_autocorr,band,outside,note
+daily,plain,SPY,full,1452,-0.03118,0.05144,False,
+daily,plain,SPY,2021,251,-0.06753,0.12371,False,
+daily,plain,SPY,2022,251,0.00695,0.12371,False,
+daily,plain,SPY,2023,250,0.03331,0.12396,False,
+daily,plain,SPY,2024,252,0.04572,0.12347,False,
+daily,plain,SPY,2025,250,-0.15155,0.12396,True,
+daily,plain,SPY,2026,198,-0.02747,0.13929,False,partial: to 2026-10-15
+daily,market-removed,SPY,full,1452,-0.0088,0.05144,False,
+daily,market-removed,SPY,2021,251,-0.00746,0.12371,False,
+daily,market-removed,SPY,2022,251,-0.05751,0.12371,False,
+daily,market-removed,SPY,2023,250,-0.02538,0.12396,False,
+daily,market-removed,SPY,2024,252,0.02678,0.12347,False,
+daily,market-removed,SPY,2025,250,-0.10516,0.12396,False,
+daily,market-removed,SPY,2026,198,0.07154,0.13929,False,partial: to 2026-10-15
+weekly,plain,SPY,full,301,-0.09725,0.11297,False,
+weekly,plain,SPY,2021,51,-0.27702,0.27445,True,
+weekly,plain,SPY,2022,52,-0.06798,0.2718,False,
+weekly,plain,SPY,2023,52,-0.1277,0.2718,False,
+weekly,plain,SPY,2024,52,-0.12554,0.2718,False,
+weekly,plain,SPY,2025,52,-0.23176,0.2718,False,
+weekly,plain,SPY,2026,42,0.17757,0.30243,False,partial: to 2026-10-15
+weekly,market-removed,SPY,full,301,-0.03808,0.11297,False,
+weekly,market-removed,SPY,2021,51,-0.01467,0.27445,False,
+weekly,market-removed,SPY,2022,52,-0.03519,0.2718,False,
+weekly,market-removed,SPY,2023,52,0.09121,0.2718,False,
+weekly,market-removed,SPY,2024,52,0.03344,0.2718,False,
+weekly,market-removed,SPY,2025,52,-0.23752,0.2718,False,
+weekly,market-removed,SPY,2026,42,-0.02061,0.30243,False,partial: to 2026-10-15

@@ -1,0 +1,25 @@
+year,freq,pairs,share_outside_pct,mean_lag1_corr,mean_abs_lag1_corr,view,note
+2021,daily,506,6.917,-0.025,0.054,plain,
+2022,daily,506,4.545,0.004,0.052,plain,
+2023,daily,506,3.36,0.022,0.047,plain,
+2024,daily,506,6.522,0.024,0.055,plain,
+2025,daily,506,16.798,-0.045,0.072,plain,
+2026,daily,506,6.917,-0.026,0.059,plain,partial: to 2026-10-15
+2021,weekly,552,11.594,-0.053,0.147,plain,
+2022,weekly,552,4.71,-0.008,0.099,plain,
+2023,weekly,552,3.986,-0.06,0.116,plain,
+2024,weekly,552,3.261,-0.041,0.103,plain,
+2025,weekly,552,7.609,-0.05,0.134,plain,
+2026,weekly,552,7.428,0.046,0.133,plain,partial: to 2026-10-15
+2021,daily,506,7.51,-0.003,0.057,market-removed,
+2022,daily,506,6.324,-0.001,0.052,market-removed,
+2023,daily,506,5.534,0.001,0.051,market-removed,
+2024,daily,506,4.348,-0.001,0.049,market-removed,
+2025,daily,506,7.51,-0.005,0.06,market-removed,
+2026,daily,506,6.719,-0.004,0.061,market-removed,partial: to 2026-10-15
+2021,weekly,552,9.42,0.001,0.13,market-removed,
+2022,weekly,552,3.986,0.001,0.105,market-removed,
+2023,weekly,552,3.623,0.006,0.109,market-removed,
+2024,weekly,552,7.79,-0.008,0.117,market-removed,
+2025,weekly,552,7.79,0.003,0.125,market-removed,
+2026,weekly,552,4.348,-0.007,0.123,market-removed,partial: to 2026-10-15

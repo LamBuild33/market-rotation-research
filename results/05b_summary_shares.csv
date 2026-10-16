@@ -1,0 +1,5 @@
+freq,view,ordered_pairs,outside_band,share_outside_pct,max_abs_corr,pairs_abs_corr_above_0_10,steady_leads
+daily,plain,506,44,8.696,0.102,2,28
+weekly,plain,552,48,8.696,0.2,82,37
+daily,market-removed,506,43,8.498,0.095,0,28
+weekly,market-removed,552,44,7.971,0.193,60,24

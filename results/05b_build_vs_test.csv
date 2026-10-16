@@ -1,0 +1,10 @@
+item,build,test,note
+SPY daily lag-1 autocorrelation (plain),-0.092,-0.031,"noise band build +/-0.026, test +/-0.051"
+"share of ordered pairs outside the band: plain, daily (%)",82.016,8.696,build 415 of 506; test 44 of 506
+"share of ordered pairs outside the band: plain, weekly (%)",28.08,8.696,build 155 of 552; test 48 of 552
+"share of ordered pairs outside the band: market-removed, daily (%)",23.32,8.498,build 118 of 506; test 43 of 506
+"share of ordered pairs outside the band: market-removed, weekly (%)",10.688,7.971,build 59 of 552; test 44 of 552
+N2: market-removed daily steady leads keeping the same sign (%),100.0,56.522,13 of 23
+N3: market-removed weekly steady leads keeping the same sign (%),100.0,27.273,3 of 11
+info: plain daily steady leads keeping the same sign (%),100.0,75.641,59 of 78
+info: plain weekly steady leads keeping the same sign (%),100.0,67.188,43 of 64
