@@ -6,6 +6,19 @@ Any change to `config.py` must be logged here with the reason.
 
 ---
 
+## 2026-10-16 — Notebook 05: who moves first (Part A, build years 1999-01-04 to 2020-12-31)
+
+Tests whether one market's return today helps predict another market's return next period (lead-lag): "A leads B" = correlation of A's return in period t with B's return in period t+1. Daily (23 symbols, BTC-USD excluded) and weekly (24 symbols).
+
+### Part A predictions (written before running anything)
+- **M1.** Daily: at most 10% of ordered pairs (A leads B, A != B) have a full-period lag-1 correlation outside the 95% noise band.
+- **M2.** Daily: no ordered pair has a full-period lag-1 correlation larger than 0.10 in absolute size.
+- **M3.** Weekly: at most 10% of ordered pairs have a full-period lag-1 correlation outside the 95% noise band.
+
+Each is confirmed if the stated condition is met and contradicted if not.
+
+---
+
 ## 2026-10-16 — Notebook 04: rotation map zones (Part A, build years 1999-01-04 to 2020-12-31)
 
 Tests the dashboard's rotation map zones (Leading / Fading / Improving / Lagging, from a longer and a shorter excess return vs the sector average). Measures labels, not a trading strategy; no trading costs applied.
