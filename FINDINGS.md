@@ -6,6 +6,19 @@ Any change to `config.py` must be logged here with the reason.
 
 ---
 
+## 2026-10-15 — Notebook 02: volume check (Part A, build years 1999-01-04 to 2020-12-31)
+
+Tests the dashboard's volume rule ("Confirms" / "Doesn't confirm", 55%/45% up-day cutoffs). Main test = plain price view (what the dashboard uses); the vs-average-sector view is a second view.
+
+### Part A predictions (written before running anything)
+- **V1.** Over the build years, "Confirms" moves continue (same direction over the next 21 trading days) at least 5 percentage points more often than "Doesn't confirm" moves.
+- **V2.** "Confirms" continues more often than "Doesn't confirm" in at least 15 of 22 build years.
+- **V3.** "Doesn't confirm" moves continue less than 50% of the time.
+
+Each is confirmed if the stated threshold is met and contradicted if not.
+
+---
+
 ## 2026-10-15 — Notebook 01: who moves together (Part A, build years 1999-01-04 to 2020-12-31)
 
 **Note:** The quick-look study (chat, Oct 2022 to Oct 2026) already showed us part of the test years, so Part B predictions are not blind. Mark any Part B prediction that comes from the quick look as "already seen."
