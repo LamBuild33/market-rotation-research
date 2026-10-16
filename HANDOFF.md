@@ -18,7 +18,7 @@
 - 02 vs-sector lead: run F1 no earlier than 2027-10-15. (Prediction and method are in FINDINGS.md under "Future test (fresh data only)". Needs at least 50 "Doesn't confirm" observations, otherwise wait longer. Refresh `data/prices.parquet` first by rerunning notebook 00.)
 
 ## Possible future tests
-- (Section requested to be kept, but it did not exist in this file, so it is empty. Add items here.)
+- Leaders vs laggards: recent leaders did slightly worse and laggards slightly better in 03, 04 Part A and 04 Part B. Never predicted; needs its own predicted test on fresh data.
 
 ## Next
 next: write 05 Part B predictions in chat, then run 05 Part B (test years).
