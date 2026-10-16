@@ -1,0 +1,7 @@
+fund,first_return_date,day_type,big_days_with_data,same_day_avg_pct,same_day_median_pct,same_day_share_positive_pct,all_days_avg_daily_pct,next5_count,next5_avg_pct,next5_median_pct,next5_share_positive_pct,next5_range95_low_pct,next5_range95_high_pct,baseline_5day_avg_pct,avg_minus_baseline_pts
+TLT,2002-07-31,big down days,157,0.848,0.809,78.344,0.032,157,-0.067,0.142,53.503,-0.435,0.31,0.155,-0.223
+TLT,2002-07-31,big up days,123,-0.729,-0.577,24.39,0.032,123,0.15,-0.049,49.593,-0.308,0.555,0.155,-0.006
+GLD,2004-11-19,big down days,146,0.311,0.3,64.384,0.041,146,-0.307,-0.097,48.63,-1.117,0.393,0.202,-0.509
+GLD,2004-11-19,big up days,115,-0.018,0.028,51.304,0.041,115,0.243,0.436,58.261,-0.233,0.693,0.202,0.041
+UUP,2007-03-02,big down days,127,0.035,0.128,53.543,0.002,127,0.373,0.316,59.055,0.053,0.755,0.009,0.365
+UUP,2007-03-02,big up days,99,-0.02,-0.123,42.424,0.002,99,0.05,-0.04,47.475,-0.188,0.305,0.009,0.042

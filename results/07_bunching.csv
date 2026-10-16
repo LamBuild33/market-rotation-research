@@ -1,0 +1,4 @@
+after,events,dropped_no_5_days,share_with_another_big_day_pct,range95_low_pct,range95_high_pct,baseline_pct,baseline_range95_low_pct,baseline_range95_high_pct,ratio,ratio_range95_low,ratio_range95_high
+any big day,332,0,47.59,40.68,53.461,23.175,20.303,26.165,2.053,1.773,2.377
+big down day,182,0,58.242,50.0,65.829,23.175,20.303,26.165,2.513,2.146,2.938
+big up day,150,0,34.667,25.973,42.556,23.175,20.303,26.165,1.496,1.122,1.878
