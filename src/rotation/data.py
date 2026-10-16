@@ -77,12 +77,17 @@ def validate_prices(df, symbols=None):
     return True
 
 
-def load_prices(symbols=None, fields=None):
-    """Read the saved long-format prices (no downloading)."""
+def load_prices(symbols=None, fields=None, end=None):
+    """Read the saved long-format prices (no downloading).
+
+    `end` (e.g. config.BUILD_END) drops later rows at read time, so they are
+    never loaded into memory.
+    """
     if not config.PRICES_FILE.exists():
         raise FileNotFoundError(
             f"{config.PRICES_FILE} not found. Run notebooks/00_data.ipynb first.")
-    df = pd.read_parquet(config.PRICES_FILE)
+    filters = [("date", "<=", pd.Timestamp(end))] if end is not None else None
+    df = pd.read_parquet(config.PRICES_FILE, filters=filters)
     if symbols is not None:
         df = df[df.symbol.isin(symbols)]
     if fields is not None:

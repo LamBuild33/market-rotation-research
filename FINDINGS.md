@@ -18,6 +18,20 @@ Any change to `config.py` must be logged here with the reason.
 
 Each is confirmed if the stated threshold is met and contradicted if not.
 
+### Part A results (run 2026-10-15, notebook `01_who_moves_together.ipynb`)
+- **Data range:** build years only, 1999-01-04 to 2020-12-31 (5,536 trading days; nothing from 2021 onward was loaded). Daily returns from adjusted close. Market = equal-weight average of the sector funds that exist each day (9 to 11 of them). 276 pairs had 252+ shared days. A year needs 120+ shared days.
+- **P1, dollar vs gold (UUP-GLD), plain view: CONFIRMED.** Negative in 14 of 14 years (2007-2020; needed 80%). Yearly range -0.19 (2011) to -0.65 (2018); typical year about -0.4.
+- **P2, tech group all pairs above +0.70 every year, plain view: CONTRADICTED.** 4 of 129 pair-years were at or below 0.70, all in SMH vs SPY: 2000 (0.699, a partial year from 2000-06-05, missed by 0.001), 2004 (0.604), 2005 (0.612), 2017 (0.652). The other five pairs never dropped below 0.736 (XLK-SMH 0.737 in 2007, SMH-QQQ 0.736 in 2007, XLK-SPY 0.781, SPY-QQQ 0.790, XLK-QQQ 0.873). Three of the four misses came before 2011-12-20, when "SMH" was a different fund.
+- **P3, stocks vs long bonds (SPY-TLT), plain view: CONFIRMED.** Negative in 16 of 18 years (89%; needed 70%). The two exceptions were tiny positives, 2005 (+0.01) and 2006 (+0.05). Strongest years: 2011 (-0.71), 2012 (-0.65), 2010 (-0.55).
+- **P4, tech vs staples (XLK-XLP), market-removed view: CONTRADICTED, narrowly.** Negative in 17 of 22 years (77%; needed 80%). Positive years: 2005 (+0.09), 2006 (+0.11), 2008 (+0.09), 2016 (+0.11), 2020 (+0.14). Median year about -0.15, a weak but frequent opposite tilt. In the plain view the same pair is positive in 21 of 22 years (only 2000 is negative) (the market lifts both).
+- **Normal wobble:** a 63-day (about 3-month) correlation normally drifts by a standard deviation of **0.20** (median across the 276 pairs, plain view; 0.17 in the market-removed view). So a pair's 3-month correlation moving by about 0.2 is routine, not news.
+- **Steadiness (plain view):** 196 pairs are steady together, 23 steady opposite, 57 flip. Market-removed: 69 together, 94 opposite, 113 flip. Most plain-view togetherness is just everything rising and falling with the market; once the market is removed, far fewer pairs stay together.
+- **Strongest market-removed pairs:** XLK-QQQ +0.83, XLC-QQQ +0.73, XLK-SMH +0.72, SMH-QQQ +0.67, SPY-QQQ +0.65, XLF-KRE +0.64, XLI-ITA +0.60. Most opposite: XLRE-SPY -0.43, GLD-UUP -0.42 (the only one that is also negative in the plain view), XLI-XLC -0.37. Full lists: `results/01_top10_market_removed.csv`.
+- **Caution on the market-removed view:** the market is built from the sector funds, so sector-vs-sector leftovers lean negative by construction (e.g. XLE-XLY -0.33, XLK-XLE -0.29, XLB-SPY -0.33 are mostly that, not a real opposite). Treat sector-vs-sector negatives with care; cross-asset pairs (GLD-UUP) are cleaner.
+- **Data notes that affect these results (from 00):** SMH before 2011-12-20 is the old Semiconductor HOLDRS, a different fund (matters for P2). XLK, XLY, XLC, XLF and XLRE changed contents in 2016 and 2018, so results spanning those dates compare slightly different baskets. XLC (3 build years, from 2018-06) and XLRE (5 years, from 2015-10) rank high in the top-10 lists on short history, so their "steady" labels rest on few years. BTC-USD has only about 6 build years (2015-2020) and is near zero with everything.
+- **Files:** `results/01_correlations_whole_period.csv`, `01_correlations_by_year.csv`, `01_steadiness.csv`, `01_rolling_wobble.csv`, `01_heatmap_plain.png`, `01_heatmap_market_removed.png`, `01_top10_market_removed.csv`, `01_selected_pairs_by_year.csv`.
+- **Takeaway:** Two of the four ideas held (dollar vs gold, stocks vs long bonds were reliably opposite) and two narrowly failed (SMH was not always tightly tied to SPY; tech vs staples was opposite 77%, not 80%, of years once the market is removed). Part B (test years) not run yet.
+
 ---
 
 ## 2026-10-15 — Notebook 00: data download and checks
