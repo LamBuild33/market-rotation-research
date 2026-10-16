@@ -1,0 +1,10 @@
+group,count,avg_pct,median_pct,share_positive_pct,range95_low_pct,range95_high_pct,avg_next_month_spy_vol_ann_pct
+calm uptrend,111,0.845,1.07,69.369,0.246,1.443,12.246
+stormy uptrend,72,0.707,1.866,72.222,-0.43,1.684,14.406
+calm downtrend,16,-1.596,-2.01,37.5,-4.475,1.377,22.272
+stormy downtrend,51,0.952,1.147,58.824,-1.263,2.958,27.055
+uptrend (both),183,0.791,1.51,70.492,0.238,1.321,13.096
+downtrend (both),67,0.344,0.604,53.731,-1.45,2.077,25.912
+stormy (both),123,0.809,1.814,66.667,-0.293,1.871,19.651
+calm (both),127,0.537,0.984,65.354,-0.113,1.174,13.509
+All,250,0.671,1.384,66.0,0.049,1.284,16.531

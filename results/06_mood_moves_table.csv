@@ -1,0 +1,5 @@
+from \ to,calm uptrend,stormy uptrend,calm downtrend,stormy downtrend
+calm uptrend,71,32,1,7
+stormy uptrend,35,30,0,7
+calm downtrend,2,0,7,7
+stormy downtrend,4,9,8,30
