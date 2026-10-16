@@ -6,6 +6,22 @@ Any change to `config.py` must be logged here with the reason.
 
 ---
 
+## 2026-10-16 — Notebook 08: rotation thermometer (Part A, build years 1999-01-04 to 2020-12-31)
+
+Tests a "rotation thermometer": how widely the sector funds' recent moves are spread out (a high reading means the sectors are moving very differently from each other, a low one that they are moving together). Does it tell us anything about the next month's sector spread, SPY's volatility or SPY's return, beyond what the 06 market mood already says? Measures labels, not a trading strategy; no trading costs applied.
+
+### Part A predictions (written before running anything)
+- **R1.** The correlation between the thermometer reading at a checkpoint and the sector spread over the next 21 trading days (starting from the next day's close) is at least 0.4.
+- **R2.** Average next-month SPY volatility is higher after hot checkpoints than after cool checkpoints.
+- **R3.** SPY's average next-month return after hot checkpoints minus after cool checkpoints is between -2% and +2%.
+- **R4.** Within calm-uptrend checkpoints only (06 mood rules), average next-month SPY volatility is higher after hot checkpoints than after cool checkpoints.
+
+Each is confirmed if the stated condition is met and contradicted if not.
+
+Rules and choices fixed before running: (a) **Thermometer** on each trading day = the standard deviation (sample, n-1) across the sector funds that exist that day (9, then 10 from XLRE, then 11 from XLC; a fund counts if it has prices on that day and 21 trading days earlier) of their 21-trading-day price changes (adjusted close) ending that day; sector funds only. (b) **Hot** = the day's thermometer is above the median of the thermometer over the previous 252 trading days (not including that day); otherwise **cool**. (c) **Checkpoints** = the same 21-day grid as notebooks 02-07, starting at the first with 21 + 252 days of history (the date is reported; expected 2000-02-02, the same as notebook 06). (d) **Outcomes** run from the NEXT day's close over the following 21 trading days: SPY's return; SPY's volatility (standard deviation of the 21 daily returns in that span x sqrt(252), as in 06); the sector spread (standard deviation, sample, across the sector funds with prices at both ends of their changes over that span). Checkpoints without a full next-month outcome inside the build years are dropped and counted. (e) **Mood** = the 06 rules, copied unchanged (SPY adjusted close at or above its 200-day average = uptrend; 21-day volatility above the median of the previous 252 days' 21-day volatility = stormy); the notebook checks that its mood labels, SPY next-month returns and volatilities equal `results/06_observations.csv` exactly. (f) R1 = Pearson correlation across checkpoints (one observation per checkpoint) of the thermometer value at the checkpoint with the next-month sector spread, needs >= 0.4; rough 95% ranges resample checkpoints with replacement (2,000 draws, fixed seed 0). (g) R2, R3, R4 compare averages over checkpoints (hot minus cool); R3 is in percentage points of next-month SPY return, between -2 and +2; a group with no checkpoints cannot be judged. (h) Information only: the 03 Top-5 rule (rank by the 21-day change at the checkpoint close, hold the 5 highest from the next day's close for 21 trading days, equal weight) before costs, as the average change of the 5 funds minus the simple mean change of the sector funds over that span (this simple mean differs slightly from 03's daily-rebalanced average); the notebook checks that its Top-5 selections equal `results/03_trades_top5.csv`. No method changes after seeing results.
+
+---
+
 ## 2026-10-16 — Notebook 07: big-day reactions (Part A, build years 1999-01-04 to 2020-12-31)
 
 Tests what tends to happen after SPY has an unusually large one-day move ("big day"): do big days bunch together, does SPY bounce after big down days, and do the sector funds fall in a similar order on big down days? Describes reactions; not a trading strategy; no trading costs applied.
