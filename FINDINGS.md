@@ -6,6 +6,19 @@ Any change to `config.py` must be logged here with the reason.
 
 ---
 
+## 2026-10-16 — Notebook 03: Top-5 test (Part A, build years 1999-01-04 to 2020-12-31)
+
+Tests the dashboard's ranking idea: each month, hold the five sector funds with the highest past-month change. Compared with the equal-weight sector average, after 0.10% trading costs.
+
+### Part A predictions (written before running anything)
+- **T1.** After 0.10% trading costs, the top-5 portfolio beats the equal-weight sector average by at least 1.0% per year (average excess per holding period x 12).
+- **T2.** The top-5 portfolio beats the sector average in at least 13 of 22 build years.
+- **T3.** The top-5 portfolio beats the sector average in more than 50% of holding periods.
+
+Each is confirmed if the stated threshold is met and contradicted if not.
+
+---
+
 ## 2026-10-15 — Notebook 02: volume check (Part A, build years 1999-01-04 to 2020-12-31)
 
 Tests the dashboard's volume rule ("Confirms" / "Doesn't confirm", 55%/45% up-day cutoffs). Main test = plain price view (what the dashboard uses); the vs-average-sector view is a second view.
