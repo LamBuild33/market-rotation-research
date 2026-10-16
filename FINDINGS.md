@@ -6,6 +6,20 @@ Any change to `config.py` must be logged here with the reason.
 
 ---
 
+## 2026-10-15 — Notebook 01: who moves together (Part A, build years 1999-01-04 to 2020-12-31)
+
+**Note:** The quick-look study (chat, Oct 2022 to Oct 2026) already showed us part of the test years, so Part B predictions are not blind. Mark any Part B prediction that comes from the quick look as "already seen."
+
+### Part A predictions (written before running anything)
+- **P1.** Dollar vs gold (UUP vs GLD), plain view: negative in at least 80% of build years where both exist.
+- **P2.** Tech group (XLK, SMH, QQQ, SPY): every pair above +0.70 in every build year, plain view.
+- **P3.** Stocks vs long bonds (SPY vs TLT), plain view: negative in at least 70% of build years where both exist.
+- **P4.** Tech vs staples (XLK vs XLP), market-removed view: negative in at least 80% of build years.
+
+Each is confirmed if the stated threshold is met and contradicted if not.
+
+---
+
 ## 2026-10-15 — Notebook 00: data download and checks
 - **Data range:** 1999-01-04 to 2026-10-15 (BTC-USD to 2026-10-14; it is one day behind because SPY's latest day had no bitcoin row yet). 24 symbols, 6,989 SPY trading days.
 - **Start dates differ:** SPY/XL* sectors 1999-01-04 (except XLRE 2015-10-08, XLC 2018-06-19), QQQ 1999-03-10, SMH 2000-06-05, IWM 2000-05-26, TLT 2002-07-30, EEM 2003-04-14, GLD 2004-11-18, XBI 2006-02-06, ITA 2006-05-05, USO 2006-04-10, KRE 2006-06-22, UUP 2007-03-01, BTC-USD 2014-09-17.
