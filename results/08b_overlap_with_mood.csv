@@ -1,0 +1,6 @@
+measure,value,observations
+"daily thermometer vs SPY 21-day volatility, levels (Pearson)",0.284,1453
+"daily thermometer vs SPY 21-day volatility, levels (Spearman)",0.336,1453
+"daily thermometer vs SPY 21-day volatility, day-to-day changes (Pearson)",-0.015,1452
+"at checkpoints, levels (Pearson)",0.264,69
+"at checkpoints, levels (Spearman)",0.363,69

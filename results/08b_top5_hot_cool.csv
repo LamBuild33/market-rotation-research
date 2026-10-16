@@ -1,0 +1,4 @@
+group,count,avg,median,share_positive_pct,range95_low,range95_high
+hot,42,0.04,0.107,54.762,-0.428,0.519
+cool,26,-0.419,-0.302,38.462,-0.982,0.127
+all,68,-0.135,-0.096,48.529,-0.5,0.217

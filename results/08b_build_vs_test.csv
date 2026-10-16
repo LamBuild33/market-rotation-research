@@ -1,0 +1,50 @@
+metric,build_1999_2020,test_2021_on
+"R1/S1 correlation, thermometer vs next-month sector spread",0.456,0.175
+R1/S1 rough range low,0.337,-0.074
+R1/S1 rough range high,0.578,0.433
+checkpoints with an outcome,250,68
+hot/cool label matches the next checkpoint's (%),54.4,55.88
+hot/cool chance level (%),50.02,53.04
+hot share of checkpoints (%),51.0,62.32
+sector spread (pts): after hot,3.653,3.895
+sector spread (pts): after cool,2.839,3.657
+SPY volatility (ann. %): after hot,18.754,15.629
+SPY volatility (ann. %): after cool,14.236,14.262
+SPY return (%): after hot,0.867,1.589
+SPY return (%): after cool,0.469,0.718
+"R2 SPY volatility, hot minus cool (points)",4.518,1.367
+R2 rough range low,1.979,-1.549
+R2 rough range high,7.254,4.792
+"R3/S4 SPY return, hot minus cool (points)",0.398,0.871
+R3/S4 rough range low,-0.802,-1.032
+R3/S4 rough range high,1.71,2.954
+calm uptrend: SPY volatility after hot / cool (ann. %),12.33 / 12.20,12.41 / 13.87
+"calm uptrend: hot minus cool (points), hot / cool counts",+0.13  (41 / 70),-1.46  (20 / 20)
+stormy uptrend: SPY volatility after hot / cool (ann. %),15.30 / 13.22,11.08 / 13.57
+"stormy uptrend: hot minus cool (points), hot / cool counts",+2.08  (41 / 31),-2.50  (11 / 4)
+calm downtrend: SPY volatility after hot / cool (ann. %),24.24 / 19.74,nan / 17.36
+"calm downtrend: hot minus cool (points), hot / cool counts",+4.50  (9 / 7),+nan  (0 / 1)
+stormy downtrend: SPY volatility after hot / cool (ann. %),28.63 / 23.28,26.03 / 21.72
+"stormy downtrend: hot minus cool (points), hot / cool counts",+5.35  (36 / 15),+4.30  (11 / 1)
+R4/S3 calm uptrend: volatility hot minus cool (points),0.134,-1.458
+R4/S3 rough range low,-1.915,-3.915
+R4/S3 rough range high,2.161,0.881
+"correlation thermometer vs next-month spread, calm uptrend",0.336,0.201
+"correlation thermometer vs next-month spread, stormy uptrend",0.464,0.076
+"correlation thermometer vs next-month spread, calm downtrend",0.401,
+"correlation thermometer vs next-month spread, stormy downtrend",0.248,-0.193
+"correlation thermometer vs next-month spread, all moods",0.456,0.175
+S2 partial correlation (SPY's 21-day volatility held fixed),0.319,0.113
+S2 rough range low,0.168,-0.132
+S2 rough range high,0.452,0.385
+"daily thermometer vs SPY 21-day volatility, levels",0.478,0.284
+"daily thermometer vs SPY 21-day volatility, day-to-day changes",-0.026,-0.015
+hot share within calm uptrend (%),37.5,51.2
+hot share within stormy uptrend (%),56.9,73.3
+hot share within calm downtrend (%),56.2,0.0
+hot share within stormy downtrend (%),70.6,91.7
+hot share among stormy checkpoints (%),62.602,81.481
+hot share among calm checkpoints (%),39.844,50.0
+Top-5 minus sector average (before costs): after hot (%),-0.158,0.04
+Top-5 minus sector average (before costs): after cool (%),0.008,-0.419
+Top-5 minus sector average (before costs): hot minus cool (points),-0.167,0.459

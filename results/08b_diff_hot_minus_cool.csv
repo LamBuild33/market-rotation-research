@@ -1,0 +1,12 @@
+measure,scope,hot_count,cool_count,hot_avg,cool_avg,hot_minus_cool,range95_low,range95_high
+next-month SPY volatility (annualized %),all checkpoints,42,26,15.629,14.262,1.367,-1.549,4.792
+next-month SPY return (%),all checkpoints,42,26,1.589,0.718,0.871,-1.032,2.954
+next-month sector spread (percentage points),all checkpoints,42,26,3.895,3.657,0.238,-0.338,0.838
+next-month SPY volatility (annualized %),calm uptrend,20,20,12.414,13.872,-1.458,-3.915,0.881
+next-month SPY return (%),calm uptrend,20,20,2.145,0.308,1.837,-0.228,4.068
+next-month SPY volatility (annualized %),stormy uptrend,11,4,11.076,13.571,-2.495,-5.052,0.828
+next-month SPY return (%),stormy uptrend,11,4,1.923,1.027,0.896,-3.039,4.524
+next-month SPY volatility (annualized %),calm downtrend,0,1,,17.364,,,
+next-month SPY return (%),calm downtrend,0,1,,0.939,,,
+next-month SPY volatility (annualized %),stormy downtrend,11,1,26.028,21.723,4.305,-1.194,11.57
+next-month SPY return (%),stormy downtrend,11,1,0.244,7.45,-7.206,-11.281,-2.793
