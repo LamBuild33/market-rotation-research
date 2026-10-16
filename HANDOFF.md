@@ -23,5 +23,5 @@
 - Leaders vs laggards: recent leaders did slightly worse and laggards slightly better in 03, 04 Part A and 04 Part B. Never predicted; needs its own predicted test on fresh data.
 
 ## Next
-next: decide in chat whether a big-day sector note belongs on the dashboard, then 08 Rotation thermometer.
-(For 08: write predictions in FINDINGS.md and commit before running; choose settings on build years only; test years are checked once per notebook. The quick-look study already showed part of the test years, so mark any prediction touching Oct 2022 to Oct 2026 as "already seen" where it applies. The market-mood tile was added to the dashboard on 2026-10-16, logged in FINDINGS.md under 06. If a big-day note is added, log the dashboard change in FINDINGS.md under 07; the dependable part is the defensive cushion (staples, utilities, health care), not bonds or gold.)
+next: 08 Rotation thermometer.
+(For 08: write predictions in FINDINGS.md and commit before running; choose settings on build years only; test years are checked once per notebook. The quick-look study already showed part of the test years, so mark any prediction touching Oct 2022 to Oct 2026 as "already seen" where it applies. The market-mood tile (06) and the big-day line on the Market mood card (07) were added to the dashboard on 2026-10-16, logged in FINDINGS.md.)
