@@ -31,6 +31,13 @@ Each is confirmed if the stated threshold is met and contradicted if not.
 - **Files:** `results/02_continuation_by_label.csv`, `02_by_year.csv`, `02_by_group.csv`, `02_avg_next_month_change.csv`, `02_cutoff_check.csv`, `02_observations.csv`.
 - **Takeaway:** On 1999-2020 data, the dashboard's volume rule did not predict whether a move would continue: all three predictions were contradicted. "Confirms" and "Doesn't confirm" moves continued about equally often (51% vs 52%), and both were close to the 51% baseline, which comes from stocks drifting upward rather than from volume. Changing the cutoff does not rescue it. Part B (test years) not run yet.
 
+### Part B predictions (test years 2021-01-01 to last date; written before loading any 2021+ data)
+- **W1.** Price view: "Confirms" continuation rate minus "Doesn't confirm" continuation rate is between -5 and +5 percentage points. [not seen]
+- **W2.** Vs-average-sector view: the same gap is between -5 and +5 percentage points. [not seen]
+- **W3.** Baseline: continuation across all labeled checkpoints is above 50%. [not seen]
+
+Rules: same method as Part A (same rules, 55/45 cutoffs, 21-day non-overlapping checkpoints, 18-of-21 volume minimum, same 23 symbols); only checkpoints whose full next 21 trading days fall inside the data are used. The checkpoint grid continues from Part A (every 21st trading day counted from 1999-01-04); test checkpoints are those dated 2021-01-01 or later, and their 21-day look-back may use late-2020 prices. W3 is judged on the price view (the main test); the vs-sector baseline is reported too. No method changes after seeing results.
+
 ---
 
 ## 2026-10-15 — Notebook 01: who moves together (Part A, build years 1999-01-04 to 2020-12-31)
